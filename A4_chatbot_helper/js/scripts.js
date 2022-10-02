@@ -30,3 +30,43 @@ const ai ={
 let question = prompt("ask me a one-word question");
 let ans = ai.checkQuestion(question);
 console.log(ans)
+
+
+
+
+
+
+
+/* right answers
+
+const Ai = {
+
+  data: [
+     {q: "how are you", a: "getting better"},
+     {q: "what is your name", a: "HAL"},
+     {q: "why are you here", a: "sorry...that question needs pondering"}
+    ],
+
+  checkAnswer(q) {
+    // logic
+    for (let set of this.data) {
+      console.log('current question set', set, q);
+
+      if (set.q === q) {
+        return set.a;
+      }
+    }
+
+  }
+}
+
+let question = "what is your name";
+let ans = Ai.checkAnswer(question);
+console.log( ans );
+
+// slightly more interactive
+let real_question = prompt('Ask your question');
+let real_ans      = Ai.checkAnswer(real_question);
+console.log( real_ans );
+
+*/
